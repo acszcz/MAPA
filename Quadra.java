@@ -1,7 +1,7 @@
 public class Quadra{
-    private int nomeDaQuadra = 1;
-    private String tipoDeQuadra = "Areia";
-    private int valorDoMinuto = 5;
+    private int nomeDaQuadra;
+    private String tipoDeQuadra;
+    private double valorDoMinuto;
     
     public Quadra(int nomeDaQuadra, String tipoDeQuadra, int valorDoMinuto){
         setNomeDaQuadra(nomeDaQuadra);
@@ -25,11 +25,11 @@ public class Quadra{
         this.tipoDeQuadra = tipoDeQuadra;
     }
     
-    public int getValorDoMinuto(){
+    public double getValorDoMinuto(){
         return valorDoMinuto;
     }
     
-    public void setValorDoMinuto(int valorDoMinuto){
+    public void setValorDoMinuto(double valorDoMinuto){
         this.valorDoMinuto = valorDoMinuto;
     }
     
